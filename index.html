@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <div class="nav-todo">
+      <span class="title">GOOGLE KEEP</span>
+      <div onclick="creatNote()" class="nav-todo-add-btn">
+        <span>+</span>
+      </div>
+    </div>
+    <div class="list-cards">
+      <div id="notes" class="list-cards-container">
+        <div class="card">
+          <div class="card-head">
+            <span>Notes</span>
+            <img onclick="deleteNote(this)" src="sheesh.svg" alt="logo" />
+          </div>
+          <div class="pitche">
+            <span>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+              dolorem eligendi, minus magnam quos unde quibusdam ab quisquam
+              porro nemo sed dignissimos qui sunt blanditiis accusamus vero.
+              Illo quia, natus amet consequatur quo ea nisi suscipit delectus
+              modi voluptatibus nulla error? Saepe dignissimos, ea debitis error
+              impedit esse. Saepe odio magnam sequi repellendus facilis possimus
+              maiores perspiciatis recusandae et, vero totam officia iste
+              praesentium? Eius sunt tempore totam repudiandae. Soluta
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
