@@ -1,0 +1,361 @@
+@media (max-width:600px) { /*phone*/
+   .navbar {
+      display: none;
+   }
+    .text1 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      line-height: 1.25;
+}
+.text2 {
+    font-size: .8rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+}
+
+
+@media (min-width:800px) { 
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+           }
+    .text1  {
+        margin-bottom: 1rem;
+        font-size: 2.75rem;
+        line-height: 1.25;
+    }
+    .text2 {
+        font-size: 1.2rem;
+    }
+    .form {
+        height: 10vh;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+body{
+margin: 0 ;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+width:100% ;
+height:7vh ;
+background-color: white;
+margin-bottom: 3px;
+box-shadow: 0 2px 5px -3px gray;
+position:fixed;
+}
+.left-side {
+width:40% ;
+height: 2.6em;
+display: flex;
+margin-right: 1rem;
+align-items: center;
+justify-content: space-between;
+}
+.right-side {
+width:40% ;
+height: 2.6rem ;
+display: flex;
+margin-right: 1rem;
+align-items: center;
+justify-content: space-around;
+}
+.logo {
+    margin-left:.7rem ;
+    margin-right:1rem ;
+    height:2rem ;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.item span {
+font-size: .85rem ;
+color: #2d2d2d ;
+}
+.item {
+margin-left: .8rem ;
+height: inherit;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+.item:hover {
+border-bottom: rgb(11, 11, 80) 2px solid;
+border-radius: .25rem;
+} 
+ 
+ .items{
+    margin-left: .8rem ;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+ }
+
+.items span {
+font-size: 1rem ;
+color: #2557a7 ;
+font-weight: bold;
+
+}
+.items:hover {
+    border-bottom: rgb(11, 11, 80) 2px solid;
+    border-radius: .25rem;
+    } 
+
+.pipe {
+        border-left: 1px solid #2d2d2d;
+        height:50% ;
+        margin-left: .2rem;
+        margin-right: .2rem;
+}
+.main {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .content {
+margin-top: 5rem;
+width: 65%;
+
+ }
+.top-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.text1 {
+    margin-bottom: 1rem;
+    line-height: 1.25;
+    font-weight: bold;
+    
+}
+.text2 {
+    color: #515e74;
+    line-height: 1.5;
+}
+.form {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+}
+.search input {
+    margin-top: 1rem;
+    width: 90%;
+    height: 50%;
+    border: 1px #2557a7 solid;
+    border-radius: .5rem;
+}
+.s-logo{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    padding-left: 16rem;
+    margin-top: -1.85rem;
+}
+.l-logo {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    padding-left: 13rem;
+    margin-top: -1.85rem;
+}
+.search input ::placeholder {
+    font-size: 6rem;
+}
+.search input:focus {
+     outline: none;
+     border-color:#2557a7 ;
+     border-bottom-width: 4px;
+}
+.search input:hover{
+    border-color:rgb(103, 159, 199) ;
+}
+
+.localisation input {
+    margin-top: 1rem;
+    width: 90%;
+    height: 50%;
+    border: 1px #2557a7 solid;
+    border-radius: .5rem;
+}
+.localisation input ::placeholder {
+    font-size: 6rem;
+}
+.localisation input:focus {
+     outline: none;
+    border-color:#2557a7 ;
+    border-bottom-width: 4px;
+}
+.localisation input:hover{
+    border-color:rgb(103, 159, 199) ;
+}
+.name {
+    font-weight: bold;
+}
+.submit { 
+width:40% ;
+align-self: center;
+margin-top: 2.5rem;
+border-radius: .7rem;
+background-color: #2557a7;
+display: flex;
+justify-content: center;
+align-items: center;
+ height: 50%;
+ cursor: pointer;
+ border: 1px solid #2557a7;
+
+}
+.submit span{
+    color: white;
+
+}
+.submit:hover {
+background-color:#264372 ;
+font-weight: bold;
+}
+.salaires {
+color: #2557a7;
+font-size: medium;
+text-decoration: underline;
+margin-top: 2rem;
+cursor: pointer;
+margin-bottom: 5rem;
+}
+.salaires:hover {
+color: rgb(8, 8, 68);
+}
+.bottom-content{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text11  {
+    margin-bottom: 4rem;
+    font-size: 2.74rem;
+    line-height: 1.25;
+    font-weight: bold;
+    width: 100%;
+}
+.icon {
+width: 15rem;
+height: 7rem;
+margin-right: 1rem;
+margin-bottom: 1.5rem; 
+
+
+}
+.image {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+
+    
+}
+.title{
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    margin-top: 0rem;
+    margin-left: 5.5rem;
+    cursor: pointer;
+}
+.title span:hover{
+    text-decoration: underline;
+    color: black;
+}
+.note {
+    width: 5rem;
+    height: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 6rem;
+    font-size: small;
+    background-color: white ;
+    cursor: pointer;
+}
+.note span:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.stars {
+width: 5rem;
+height: 1.4rem;
+display: flex;
+justify-content: center;
+align-self: flex-start;
+margin-left: 6rem;
+cursor: pointer;
+
+
+}
+.footer {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    cursor: pointer;
+    font-size: .8rem;
+    text-align: center;
+    margin-right: 4rem;
+    vertical-align: middle;
+    margin-top: 1rem;
+
+}
+.footer span:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.footer-img {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #f5fbf9;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.footer-img span{
+    align-self:center;
+    margin-right: .2rem;
+    margin-left: 1.5rem;
+    font-weight: 800;
+    color: #2d2d2d;
+}
+.bottom-footer {
+width: 100%;
+height: 5.1rem;
+font-size: small;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+cursor: pointer;
+}
+.bottom-footer span:hover{
+    text-decoration: underline;
+    color: purple;
+}

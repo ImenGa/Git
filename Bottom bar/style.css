@@ -1,0 +1,38 @@
+body {
+margin: 0;
+}
+.main {
+width: 100% ;
+height: 100vh;
+background: linear-gradient( blue ,aqua);
+
+}
+.bottom-nav {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(231, 231, 231);
+    bottom: 0;
+    display: flex;
+    justify-content: space-around; 
+    box-shadow: 0 4px 8px 3px rgba(192, 55, 55, 0.2) ; 
+    
+}
+.icon {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.image {
+    height: 1.5rem;
+    width: 2rem;
+
+}
+
+.icon span {
+    font-size: .9rem;
+    color: black;
+}

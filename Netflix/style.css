@@ -1,0 +1,225 @@
+body {
+margin: 0;
+padding: 0;
+font-family: sans-serif ;
+}
+.main {
+    width: 100%;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75) , rgba(0,0,0,0.75)) ,url(background.jpg);
+}
+.logo-n {
+    width: 12.5rem;
+    height: 7rem;
+    margin-left: 1.7rem;
+    margin-top: -.5rem;
+}
+.card {
+    width: 30%;
+    height: 80vh;
+    background-color: transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0.75) , rgba(0,0,0,0.75));
+    margin-top: 1.5rem;
+    margin-left: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    margin-top: 2.5rem;
+    margin-left: -6rem;
+}
+.card input {
+    width: 70%;
+    height: 2.7rem;
+    border-radius: .3rem;
+    background-color: rgb(22, 22, 22);
+    background: transparent;
+    margin-top: 1rem;
+    font-size: medium;
+    text-align: left;
+    color: white;
+}
+.card input:focus {
+    outline: none;
+   border-color: rgb(221, 7, 7);
+}
+.card input:hover {
+    border: 1px rgb(221, 7, 7) solid ;
+}
+.submit {
+background-color: red;
+width: 70%;
+height: 2.7rem;
+border-radius: .3rem;
+margin-top: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: white;
+cursor: pointer;
+}
+.submit:hover {
+    background-color: rgb(189, 6, 6);
+}
+.select {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12rem;
+}
+.left-select {
+    margin-left: 13rem;
+    height: 2rem;
+    margin-left: -9rem;
+}
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.left-select span {
+font-size: small;
+color: silver;
+}
+.select-right {
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+.select-right span {
+font-size: small;
+color: silver;
+}
+.select-right span:hover {
+    text-decoration: silver underline;
+    cursor: pointer;
+}
+.fa-facebook-f {
+    color: rgb(73, 73, 233);
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+}
+.facebook {
+    margin-top: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: -9rem;
+    cursor: pointer;
+}
+.facebook span {
+    font-size: small;
+    color: rgb(160, 160, 160);
+}
+.inscription {
+    width: 80%;
+    display: flex;
+    margin-top: .5rem;
+}
+.inscri-right {
+    margin-left: .5rem;
+    font-size: .9rem;
+    color: white;
+    cursor: pointer;
+}
+.inscri-right span:hover {
+text-decoration: silver underline;
+}
+.inscri-left {
+    color: silver;
+}
+.protection {
+    width: 80%;
+    font-size: small;
+    margin-top: 1.5rem;
+    color: silver;
+}
+.more-info {
+    margin-left: -14.3rem;
+    font-size: small;
+    color: royalblue;
+    cursor: pointer;
+}
+.more-info span:hover {
+    text-decoration: royalblue underline;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    margin-top: 5rem;
+    background-color: transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0.75) , rgba(0,0,0,0.75));
+}
+.footer span {
+color: silver;
+font-size: medium;
+margin-left: 9rem;
+margin-top: 1.5rem;
+cursor: pointer;
+}
+.footer span:hover {
+    text-decoration: rgb(189, 6, 6) underline;
+    color: rgb(189, 6, 6);
+}
+.footer-info {
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.icon {
+    display: flex;
+    width: 25%;
+    height: 2rem;
+    margin-right: 2rem;
+}
+.icon span {
+    color: rgb(92, 92, 92);
+    font-size: small;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
+.icon span:hover {
+    color:rgb(92, 92, 92) ;
+    text-decoration: rgb(92, 92, 92) underline ;
+}
+.langue {
+    width: 10%;
+    height: 2rem;
+    border: .5px rgb(92, 92, 92) solid;
+    background-color: transparent;
+    border-radius: .5rem;
+    margin-left: 8rem;
+}
+.fa-globe {
+color: rgb(139, 139, 139);
+width: 20px;
+height: 20px;
+margin-left: .5rem;
+margin-top: .3rem;
+}
+.langue span {
+    color: rgb(92, 92, 92);
+    font-size: small;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    margin-top: -1rem;
+}
+.langue span:hover {
+    color:rgb(92, 92, 92) ;
+    text-decoration: rgb(92, 92, 92) none ;
+}
